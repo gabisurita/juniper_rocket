@@ -11,8 +11,8 @@ repository = "https://github.com/graphql-rust/juniper_rocket"
 serde = { version = "1.0.8" }
 serde_derive = {version="1.0.8" }
 serde_json = { version = "1.0.2" }
-rocket = { version = "0.3.0" }
-rocket_codegen = { version = "0.3.0" }
+rocket = {git = "https://github.com/SergioBenitez/Rocket"}
+rocket_codegen = {git = "https://github.com/SergioBenitez/Rocket"}
 juniper = { version = "0.8.1" , git = "https://github.com/graphql-rust/juniper" }
 
 [badges]
